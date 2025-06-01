@@ -1,6 +1,6 @@
 import initialState from "./initialState.js";
 
-const state = { ...initialState };
+let state = { ...initialState };
 const listeners = [];
 
 export function getState() {
