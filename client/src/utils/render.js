@@ -1,13 +1,13 @@
 import { getState } from "../store/store.js";
 import { loadPage } from "../utils/loadPage.js";
-import { renderLoginPage } from "../pages/LoginPage.js";
-import { renderMainPage } from "../pages/MainPage.js";
+import { renderLoginPage } from "../pages/loginPage.js";
+// import { renderMainPage } from "../features/todo/pages/mainPage.js";
 
 const pagesMap = {
   login: renderLoginPage,
-  home: renderMainPage,
-  profile: renderProfilePage,
-  stats: renderStatsPage,
+  //   home: renderMainPage,
+  //   profile: renderProfilePage,
+  //   stats: renderStatsPage,
 };
 
 export function render() {

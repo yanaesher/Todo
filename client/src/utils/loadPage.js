@@ -1,6 +1,6 @@
 export function loadPage(pageFunc, state) {
-  const appRoot = document.getElementById("app-root");
-  appRoot.innerHTML = "";
+  const content = document.getElementById("shell-content");
+  content.innerHTML = "";
   const page = pageFunc(state);
-  appRoot.append(page);
+  content.append(page);
 }
